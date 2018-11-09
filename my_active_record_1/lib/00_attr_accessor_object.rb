@@ -10,8 +10,6 @@ class AttrAccessorObject
         p "defining a setter"
         instance_variable_set("@#{name}", value)
       end
-
-
   end
 end
 end
